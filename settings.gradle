@@ -1,0 +1,4 @@
+include ':engine'
+include ':libs'
+include ':app'
+rootProject.name = "Board Games"
