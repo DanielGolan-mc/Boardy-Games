@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.BoardGames"
+    tools:context=".android.activities.BoardActivity"
+    android:orientation="horizontal">
+
+    <TableLayout android:id="@+id/board_tile_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="top">
+
+        <TableRow android:theme="@style/Theme.BoardGames" android:id="@+id/board_tile_view_1">
+
+        <ImageView
+            android:id="@+id/board_tile_view_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_1_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_1_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_1_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_1_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+    </TableRow>
+
+        <TableRow android:theme="@style/Theme.BoardGames" android:id="@+id/board_tile_view_2">
+
+        <ImageView
+            android:id="@+id/board_tile_view_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_2_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_2_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_2_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_2_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+    </TableRow>
+
+        <TableRow android:theme="@style/Theme.BoardGames" android:id="@+id/board_tile_view_3">
+
+        <ImageView
+            android:id="@+id/board_tile_view_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_3_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_3_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_3_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+    </TableRow>
+
+        <TableRow android:theme="@style/Theme.BoardGames" android:id="@+id/board_tile_view_4">
+
+        <ImageView
+            android:id="@+id/board_tile_view_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_4_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_4_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_4_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_4_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_4_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+    </TableRow>
+
+        <TableRow android:theme="@style/Theme.BoardGames" android:id="@+id/board_tile_view_5">
+
+        <ImageView
+            android:id="@+id/board_tile_view_5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_5_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_5_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_5_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_5_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+    </TableRow>
+
+        <TableRow android:theme="@style/Theme.BoardGames" android:id="@+id/board_tile_view_6">
+
+        <ImageView
+            android:id="@+id/board_tile_view_6_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_6_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_6_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_6_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_6_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_6_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_6_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_6_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+    </TableRow>
+
+        <TableRow android:theme="@style/Theme.BoardGames" android:id="@+id/board_tile_view_7">
+
+        <ImageView
+            android:id="@+id/board_tile_view_7_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_7_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_7_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_7_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_7_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_7_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_7_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_7_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+    </TableRow>
+
+        <TableRow android:theme="@style/Theme.BoardGames" android:id="@+id/board_tile_view_8">
+
+        <ImageView
+            android:id="@+id/board_tile_view_8_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_8_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_8_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_8_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_8_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_8_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_8_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+
+        <ImageView
+            android:id="@+id/board_tile_view_8_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/board_tile_content_description"
+            android:theme="@style/Theme.BoardGames"
+            app:srcCompat="@drawable/black_empty_tile" />
+    </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:id="@+id/playview_layout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center_horizontal">
+
+            <ImageButton
+                android:id="@+id/playview_button_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/up"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_up_24" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/playview_button_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/left"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+            <ImageButton
+                android:id="@+id/playview_button_completed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/complete"
+                app:srcCompat="@drawable/ic_baseline_check_24" />
+
+            <ImageButton
+                android:id="@+id/playview_button_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/right"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|top">
+
+            <ImageButton
+                android:id="@+id/playview_button_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/down"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_down_24" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
